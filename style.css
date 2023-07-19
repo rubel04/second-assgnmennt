@@ -36,12 +36,13 @@
 .btn-navbar ul {
     display: flex;
     gap: 32px;
+    
 }
-
 .btn-navbar a {
     text-decoration: none;
     color: #3C354F;
     font-weight: 500;
+
 }
 
 .G-style {
@@ -244,38 +245,7 @@ div img{
     height: auto;
     margin-right: 12px;
 }
-/* div p{
-    color: #0b0223;
-    font-size: 13px;
-    font-weight: 600;
-} */
 
-
-/* .btn-container {
-    margin: 100px 60px;
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-}
-
-.btn-content {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-    justify-content: center;
-}
-
-.btn-content1 {
-    display: flex;
-    gap: 10px;
-}
-
-.btn {
-    border-radius: 40px;
-    background: #FFF;
-    text-align: center;
-    gap: 10px;
-} */
 
 
 
