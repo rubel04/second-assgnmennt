@@ -2,6 +2,7 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+/* navbaar section style */
 
 .navbar-section {
     display: flex;
@@ -46,19 +47,26 @@
     color: #FF42A5;
 }
 
+
+
+
+
 /* banner section style */
 .banner-container {
     display: flex;
-    margin: 20px 50px;
+    justify-content: space-between;
+    margin-right: 50px;
     gap: 40px;
     align-items: center;
 }
 
 .banner-info {
-    /* width: 100%; */
+    width: 100%;
     background-image: url('./images/Group\ 14.png');
+    background-size: 100%;
     background-repeat: no-repeat;
     text-align: center;
+    padding: 0 0 50px;
 }
 
 .banner-text {
@@ -70,13 +78,16 @@
 }
 
 .banner-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 50px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-top: 5px;
+    margin-top: 0;
     margin-bottom: 0;
 }
-
 .banner-btn {
     color: #FFF;
     font-size: 18px;
@@ -108,20 +119,33 @@
 .primary-description {
     color: #534C64;
     font-weight: 100;
+    margin-top: 0;
 }
+
+
+
+
 
 
 /* funny-videos section style */
-.funny-videos-section {
-    max-width: 1440px;
+.funny-img-content{
+    width: 200px;
 }
-
+.funny-img-content
+img{
+    width: 100%;
+}
 .funny-videos-info {
     text-align: center;
 }
 
 .funny-videos-img {
     display: flex;
+    gap: 20px;
+}
+.funny-videos-content{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .funny-videos-img p {
@@ -131,17 +155,31 @@
     line-height: 30px;
 }
 
-.funny-img {
+/* .funny-img {
     width: 200px;
-    /* height: 250px; */
-}
+} */
+
+
+
+
 
 /* play game section style*/
+
+.play-game-description{
+    color: #534C64;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
 .play-game-secton {
     display: flex;
     margin: 20px 50px;
     gap: 100px;
     align-items: center;
+}
+.play-game-info{
+
 }
 
 .game-img {
@@ -163,6 +201,40 @@
     width: 125px;
     height: 135px;
 }
+.funny-videos-info h2 {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.game-title{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.funny-videos-description {
+    color: #534C64;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.funny-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+
 
 /* button section style */
 .btn-section {
@@ -178,6 +250,12 @@
     text-align: center;
 }
 
+
+
+
+
+
+
 /* footer section style */
 .footer-title {
     display: flex;
@@ -185,15 +263,34 @@
 }
 
 
+
+
+
+
+
 /* mobile responsive view */
 @media screen and (max-width:576px) {
-    .navbar-section{
+    .navbar-section {
         flex-direction: column;
         margin: 0 auto;
         align-items: center;
     }
-    .btn-navbar ul{
+
+    .btn-navbar ul {
         flex-direction: column;
         text-align: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .banner-img img {
+        width: 300px;
+
+    }
+    .play-game-secton{
+        flex-direction: column-reverse;
     }
 }
