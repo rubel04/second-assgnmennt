@@ -1,0 +1,199 @@
+/* shared syles */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.logo-navbar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0%;
+    gap: 5px;
+}
+
+.logo-navbar h4 {
+    font-size: 25px;
+}
+
+.logo-img {
+    width: 50.041px;
+    height: 25px;
+}
+
+.btn-navbar li {
+    list-style: none;
+}
+
+.btn-navbar ul {
+    display: flex;
+    gap: 32px;
+}
+
+.btn-navbar a {
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.G-style {
+    color: #FF42A5;
+}
+
+/* banner section style */
+.banner-container {
+    display: flex;
+    margin: 20px 50px;
+    gap: 40px;
+    align-items: center;
+}
+
+.banner-info {
+    /* width: 100%; */
+    background-image: url('./images/Group\ 14.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner-text {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.banner-btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 10px 25px;
+    border: none;
+    margin-right: 5px;
+}
+
+.banner-btn1 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 10px 25px;
+    border: none;
+}
+
+.banner-img img {
+    width: 400px;
+
+}
+
+.primary-description {
+    color: #534C64;
+    font-weight: 100;
+}
+
+
+/* funny-videos section style */
+.funny-videos-section {
+    max-width: 1440px;
+}
+
+.funny-videos-info {
+    text-align: center;
+}
+
+.funny-videos-img {
+    display: flex;
+}
+
+.funny-videos-img p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.funny-img {
+    width: 200px;
+    /* height: 250px; */
+}
+
+/* play game section style*/
+.play-game-secton {
+    display: flex;
+    margin: 20px 50px;
+    gap: 100px;
+    align-items: center;
+}
+
+.game-img {
+    position: relative;
+}
+
+.game-img img {
+    width: 300px;
+    height: 300px;
+}
+
+.game-img1 {
+    position: absolute;
+    top: 210px;
+    left: 220px;
+}
+
+.game-img1 img {
+    width: 125px;
+    height: 135px;
+}
+
+/* button section style */
+.btn-section {
+    margin: 100px 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.btn {
+    /* border-radius: 50px; */
+    background: #FFF;
+    text-align: center;
+}
+
+/* footer section style */
+.footer-title {
+    display: flex;
+    gap: 30px;
+}
+
+
+/* mobile responsive view */
+@media screen and (max-width:576px) {
+    .navbar-section{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .btn-navbar ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}
