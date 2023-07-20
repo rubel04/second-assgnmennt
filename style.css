@@ -134,7 +134,6 @@
 
 /* FUNNY VIDEOS SECTION STYLE STARTED*/
 .funny-video-section {
-    border: 1px solid tomato;
     width: 90%;
     /* margin-left: 60px; */
     margin: 0 auto;
@@ -246,7 +245,6 @@ div img {
 
 /* FOOTER SECTION STYLE STARTED*/
 .footer {
-    border: 1px solid tomato;
     background-color: #0B0223;
 }
 .footer-title {
@@ -338,11 +336,12 @@ div img {
     .play-game-secton {
         flex-direction: column-reverse;
     }
-
-    .footer {
-        flex-direction: column;
-    }
     .funny-videos-content{
         flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .funny-img {
+        width: 100%;
     }
 }
