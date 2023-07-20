@@ -41,12 +41,15 @@
     gap: 10px;
     align-items: center;
 }
+.youtube-icon{
+    display: flex;
+}
 
-.fa-brands.youtube-icon {
+.fa-brands.y-icon {
     font-size: 25px;
     color: #F61C0D;
 }
-.fa-brands.tiktok-icon{
+.fa-brands.t-icon{
     font-size: 25px;
 }
 
