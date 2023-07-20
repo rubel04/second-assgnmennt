@@ -33,11 +33,30 @@
     list-style: none;
 }
 
+.y-icon li {
+    display: flex;
+    border-radius: 5px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+.fa-brands.youtube-icon {
+    font-size: 25px;
+    color: #F61C0D;
+}
+.fa-brands.tiktok-icon{
+    font-size: 25px;
+}
+
 .btn-navbar ul {
     display: flex;
     gap: 32px;
-    
+    align-items: center;
+
 }
+
 .btn-navbar a {
     text-decoration: none;
     color: #3C354F;
@@ -238,9 +257,10 @@
     padding: 10px 10px;
     background-color: #ffff;
     border-radius: 50px;
-    
+
 }
-div img{
+
+div img {
     width: 37px;
     height: auto;
     margin-right: 12px;
